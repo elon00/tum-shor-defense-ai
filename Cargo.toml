@@ -1,0 +1,9 @@
+[package]
+name = "tum-shor-defense-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Post-quantum lattice barrier against Shor's algorithm"
+license = "MIT"
+
+[dependencies]

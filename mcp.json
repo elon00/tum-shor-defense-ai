@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "tum-shor-defense-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "TUM Munich",
+        "PROJECT_TICKER": "TUMSHOR"
+      },
+      "tools": [
+        {
+          "name": "verify_tumshor_invariants",
+          "description": "Verifies deterministic invariants for TUM Shor Defense AI on TUM Munich."
+        },
+        {
+          "name": "execute_tumshor_action",
+          "description": "Executes authenticated Security state transition."
+        }
+      ]
+    }
+  }
+}
